@@ -17,7 +17,7 @@ app.use(bodyParser.json());
 const jwt = require('jsonwebtoken');
 
 
-mongoose.connect('mongodb+srv://adarshkumar57d:adarsh99@cluster0.ijjfdsm.mongodb.net/').then(()=>{
+mongoose.connect('*****YOUR DATABASE LINK*******').then(()=>{
     console.log("connected to mongoDB")
 }).catch((err)=>{
     console.log("Error connecting to MongoDB : ", err)
